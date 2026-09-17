@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
 html {
@@ -10,7 +11,7 @@ body {
   background: #080a0d;
   color: white;
   font-family:
-    Inter,
+    "Manrope",
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -18,6 +19,7 @@ body {
     "Segoe UI",
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
