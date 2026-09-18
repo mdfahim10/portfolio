@@ -1,3 +1,13 @@
+import btechProvisional from "../assets/images/certificates/btech-provisional.jpg";
+import btechProvisionalPdf from "../assets/images/certificates/btech-provisional.pdf";
+import industrialTraining from "../assets/images/certificates/industrial-training-mern.jpg";
+import internshipProjectLetter from "../assets/images/certificates/internship-project-letter.jpg";
+import udemyWebDevelopment from "../assets/images/certificates/udemy-web-development.jpg";
+import scalerJavaFundamentals from "../assets/images/certificates/scaler-java-fundamentals.jpg";
+import smartIndiaHackathon from "../assets/images/certificates/smart-india-hackathon-2024.jpg";
+import adobeIndiaHackathon from "../assets/images/certificates/adobe-india-hackathon.jpg";
+import codexcellence2025 from "../assets/images/certificates/codexcellence-2025.jpg";
+
 const certificates = [
   {
     number: "01",
@@ -5,8 +15,8 @@ const certificates = [
     category: "Academic",
     description:
       "Provisional certificate confirming the successful completion of my Bachelor of Technology in Information Technology.",
-    image: "src/assets/images/certificates/btech-provisional.jpg",
-    link: "src/assets/images/certificates/btech-provisional.pdf",
+    image: btechProvisional,
+    link: btechProvisionalPdf,
   },
 
   {
@@ -15,8 +25,8 @@ const certificates = [
     category: "Industrial Training",
     description:
       "Successfully completed industrial training in Full Stack Web Development using the MERN stack with hands-on experience in building a Hotel Booking System.",
-    image: "src/assets/images/certificates/industrial-training-mern.jpg",
-    link: "src/assets/images/certificates/industrial-training-mern.jpg",
+    image: industrialTraining,
+    link: industrialTraining,
   },
 
   {
@@ -25,8 +35,8 @@ const certificates = [
     category: "Internship",
     description:
       "Completed internship and project work on a Hotel Booking System using Full Stack Web Development under the guidance of Ardent Computech Pvt. Ltd.",
-    image: "src/assets/images/certificates/internship-project-letter.jpg",
-    link: "src/assets/images/certificates/internship-project-letter.jpg",
+    image: internshipProjectLetter,
+    link: internshipProjectLetter,
   },
 
   {
@@ -35,8 +45,8 @@ const certificates = [
     category: "Certification",
     description:
       "Completed the Ultimate Web Development Course 2026, covering modern web development concepts and practical website development.",
-    image: "src/assets/images/certificates/udemy-web-development.jpg",
-    link: "src/assets/images/certificates/udemy-web-development.jpg",
+    image: udemyWebDevelopment,
+    link: udemyWebDevelopment,
   },
 
   {
@@ -45,8 +55,8 @@ const certificates = [
     category: "Certification",
     description:
       "Completed a Java course covering core programming concepts, object-oriented programming, problem solving, and hands-on programming challenges.",
-    image: "src/assets/images/certificates/scaler-java-fundamentals.jpg",
-    link: "src/assets/images/certificates/scaler-java-fundamentals.jpg",
+    image: scalerJavaFundamentals,
+    link: scalerJavaFundamentals,
   },
 
   {
@@ -55,8 +65,8 @@ const certificates = [
     category: "Hackathon",
     description:
       "Participated in the Internal Smart India Hackathon 2024 as a valuable member of the team Screen Warriors, contributing to innovation, teamwork, and real-world problem solving.",
-    image: "src/assets/images/certificates/smart-india-hackathon-2024.jpg",
-    link: "src/assets/images/certificates/smart-india-hackathon-2024.jpg",
+    image: smartIndiaHackathon,
+    link: smartIndiaHackathon,
   },
 
   {
@@ -65,8 +75,8 @@ const certificates = [
     category: "Hackathon",
     description:
       "Participated in Round 1 of the Adobe India Hackathon, completing an online MCQ assessment and coding challenge as part of Team Crack mind.",
-    image: "src/assets/images/certificates/adobe-india-hackathon.jpg",
-    link: "src/assets/images/certificates/adobe-india-hackathon.jpg",
+    image: adobeIndiaHackathon,
+    link: adobeIndiaHackathon,
   },
 
   {
@@ -75,8 +85,8 @@ const certificates = [
     category: "Coding Competition",
     description:
       "Participated in CodeXcellence 2025, a competitive coding event organized by the Information Technology Department at Future Institute of Engineering and Management.",
-    image: "src/assets/images/certificates/codexcellence-2025.jpg",
-    link: "src/assets/images/certificates/codexcellence-2025.jpg",
+    image: codexcellence2025,
+    link: codexcellence2025,
   },
 ];
 

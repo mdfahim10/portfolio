@@ -1,3 +1,10 @@
+import royalCollection from "../assets/images/projects/royal-collection.jpg";
+import virtualHerbalGarden from "../assets/images/projects/virtual-herbal-garden.jpg";
+import weatherWidget from "../assets/images/projects/weather-widget.jpg";
+import randomQuote from "../assets/images/projects/random-quote.jpg";
+import randomUser from "../assets/images/projects/random-user.jpg";
+import simonSays from "../assets/images/projects/simon-says.png";
+
 const projects = [
   {
     title: "Royal Collection",
@@ -11,7 +18,7 @@ const projects = [
       "Tailwind CSS",
       "React Router",
     ],
-    image: "src/assets/images/projects/royal-collection.jpg",
+    image: royalCollection,
     github: "https://github.com/mdfahim10/e-commerce",
     live: "",
   },
@@ -29,7 +36,7 @@ const projects = [
       "EJS",
       "Bootstrap",
     ],
-    image: "src/assets/images/projects/virtual-herbal-garden.jpg",
+    image: virtualHerbalGarden,
     github: "https://github.com/mdfahim10/virtual-herbal-garden",
     live: "https://virtual-herbal-garden-t92w.onrender.com/",
   },
@@ -45,7 +52,7 @@ const projects = [
       "Material UI",
       "OpenWeather API",
     ],
-    image: "src/assets/images/projects/weather-widget.jpg",
+    image: weatherWidget,
     github: "https://github.com/mdfahim10/React-Weather-Mini-Project",
     live: "https://weather-widget-alex.netlify.app/",
   },
@@ -61,7 +68,7 @@ const projects = [
       "API Integration",
       "CSS",
     ],
-    image: "src/assets/images/projects/random-quote.jpg",
+    image: randomQuote,
     github: "https://github.com/mdfahim10/Random-Quote-Generator",
     live: "https://random-quote-alex.netlify.app/",
   },
@@ -77,7 +84,7 @@ const projects = [
       "API Integration",
       "CSS",
     ],
-    image: "src/assets/images/projects/random-user.jpg",
+    image: randomUser,
     github: "https://github.com/mdfahim10/Random-User-Generator",
     live: "https://random-user-alex.netlify.app/",
   },
@@ -92,7 +99,7 @@ const projects = [
       "CSS",
       "JavaScript",
     ],
-    image: "src/assets/images/projects/simon-says.png",
+    image: simonSays,
     github: "#",
     live: "#",
   },
