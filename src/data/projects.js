@@ -1,6 +1,5 @@
 const projects = [
   {
-    number: "01",
     title: "Royal Collection",
     category: "E-Commerce",
     description:
@@ -13,14 +12,13 @@ const projects = [
       "React Router",
     ],
     image: "src/assets/images/projects/royal-collection.jpg",
-    github: "#",
-    live: "#",
+    github: "https://github.com/mdfahim10/e-commerce",
+    live: "",
   },
 
   {
-    number: "02",
     title: "Virtual Herbal Garden",
-    category: "MERN Application",
+    category: "Full-Stack Application",
     description:
       "A full-stack application for exploring medicinal plants, disease-wise herbal remedies, and AYUSH-based healthcare information.",
     technologies: [
@@ -32,12 +30,59 @@ const projects = [
       "Bootstrap",
     ],
     image: "src/assets/images/projects/virtual-herbal-garden.jpg",
-    github: "#",
-    live: "#",
+    github: "https://github.com/mdfahim10/virtual-herbal-garden",
+    live: "https://virtual-herbal-garden-t92w.onrender.com/",
   },
 
   {
-    number: "03",
+    title: "Weather Widget",
+    category: "React Application",
+    description:
+      "A responsive weather application that provides real-time weather information for searched cities using the OpenWeather API.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Material UI",
+      "OpenWeather API",
+    ],
+    image: "src/assets/images/projects/weather-widget.jpg",
+    github: "https://github.com/mdfahim10/React-Weather-Mini-Project",
+    live: "https://weather-widget-alex.netlify.app/",
+  },
+
+  {
+    title: "Random Quote Generator",
+    category: "JavaScript Application",
+    description:
+      "A simple web application that generates random quotes through API integration with a clean and responsive user interface.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "API Integration",
+      "CSS",
+    ],
+    image: "src/assets/images/projects/random-quote.jpg",
+    github: "https://github.com/mdfahim10/Random-Quote-Generator",
+    live: "https://random-quote-alex.netlify.app/",
+  },
+
+  {
+    title: "Random User Generator",
+    category: "React Application",
+    description:
+      "A React-based application that fetches and displays randomly generated user profiles using an external API.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "API Integration",
+      "CSS",
+    ],
+    image: "src/assets/images/projects/random-user.jpg",
+    github: "https://github.com/mdfahim10/Random-User-Generator",
+    live: "https://random-user-alex.netlify.app/",
+  },
+
+  {
     title: "Simon Says Game",
     category: "JavaScript Game",
     description:
